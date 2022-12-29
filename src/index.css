@@ -1,0 +1,596 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+.spinner-wrapper
+{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 6s;
+}
+.spinner-border{
+  height: 5rem;
+  width: 5rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/**************** NAV__BAR CSS******************/
+.navbar-brand
+{
+  margin-left: 15rem;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  color: gainsboro;
+  font-size: 2.3rem;
+  
+}
+.navbar-brand:hover{
+  color:  rgb(235, 229, 229);
+}
+.icon__color
+{
+  color: yellow;
+}
+.navbar-nav li a{
+  color: white;
+  margin-right: 2rem;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.navbar-nav li a:hover{
+  color: white;
+  cursor: pointer;
+}
+.navbar-nav{
+  margin-right: 10rem;
+}
+.nav__a{
+  background: rgba(0,0,0,0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position:fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  margin-top: 40rem;
+}
+.nav__a a{
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+.nav__a a:hover{
+  background: rgb(0, 0, 0,0.3);
+
+}
+.nav__a a.active{
+  background:var(--color-bg);
+  color: var(--color-white);
+}
+/****** CTA  *****/
+.cta{
+  
+  gap:0.5rem;
+  display: flex;
+  justify-content: center;  
+  padding-top: 10rem; 
+}
+.btn
+{
+  width: 11%;
+  height: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  
+}
+.btn-talk:hover
+{
+  border-color: yellow;
+  color: white;
+  
+}
+.btn-talk
+{
+  background-color: yellow;
+}
+
+/********************* Header *************/
+.header__container
+{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(back_g.jpg);
+  height: 90vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header__container h1{
+  text-align: center;
+  color: yellow;
+  padding-top: 5rem;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  text-shadow: 1px 2px 3px wheat;
+}
+/*** Typed Text***/
+.header__type-tex
+{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+/************* Certificate ***************/
+.background-imag
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  padding: 5rem;
+}
+.containe
+{
+    font-family: cursive;
+    height: max-content;
+}
+.containe h1{
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+  text-shadow: 1px 2px 3px wheat;
+}
+.about__container{
+  display: grid;
+  grid-template-columns: 25% 50%;
+  gap: 15%;
+}
+.about__me
+{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+    transparent,
+    rgba(212, 199, 243, 0.945),
+    transparent);
+    display: grid;
+    place-items: center;
+    margin-top: rem;   
+}
+
+.about__img img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.about__img
+{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 400ms ease;
+    
+}
+.about__img:hover
+{
+    transform: rotate(0);
+}
+.about__cards
+{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap:1.5rem;
+}
+.about__card{
+  background: linear-gradient(45deg,
+  transparent,
+  rgba(82, 82, 99, 0.945),
+  transparent);
+    border: 1px solid;
+    border-color:rgb(246, 250, 15);
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 400ms ease ;
+    font-family: cursive;
+}
+.about__card:hover{
+    background: transparent;
+    border-color:rgb(246, 250, 15);
+    cursor: default;
+    border-radius: 2rem ;
+}
+.about__icon
+{
+    color: blue;
+    font-size: 1.4rem;
+    margin-bottom:1rem;
+}
+.about__card h5{
+    font-size: 1rem;
+    margin-top:1rem;
+    padding: 0.2rem;
+    font-weight: bold;
+
+}
+.about__card small{
+    font-size: 1rem;
+}
+.about__content p
+{
+     margin: 2rem 0 2.6rem;
+}
+.about__card2
+{
+    border: 1px ;
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 400ms ease ;
+    padding: 1rem;
+    height: 50vh;
+    width: 100%;
+}
+.about__card-long
+{
+ 
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:2.5rem;
+  text-align: center;
+  
+}
+.about__card-4grid
+{
+  height: max-content;
+}
+.about__type-tex
+{
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+.about__card-4grid-w 
+{
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.8rem;
+}
+
+.about__card-4grid-t {
+  float: left;
+}
+.bg__card_icon
+{
+  margin-top: 2rem;
+  height: 50vh;
+  background: linear-gradient(45deg,
+  transparent,
+  rgb(82, 82, 99, 0.945),transparent);
+  margin-bottom: 10rem;
+  border-radius: 2rem 2rem;
+}
+.bg__card_icon p{
+  width: 95%;
+  margin-left: 2rem;
+  font-size: larger;
+}
+.about__text-customer{
+  padding-left: 2rem;
+}
+.card__icon
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  height: max-content;
+}
+.about__text
+{
+  background: linear-gradient(45deg,
+  transparent,
+  rgba(0, 0, 0, 0.945),
+  transparent);
+  margin-bottom: 1rem;
+}
+.small_img{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.2rem solid;
+  border-radius: 3rem;
+  font-family: cursive;
+  padding: 0.5rem;
+   
+}
+.b:hover{
+    border-color:rgb(246, 250, 15);
+    cursor: default;
+}
+.a{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.pp
+{
+  height: 3rem;
+}
+
+/********** fadein style **************/
+/********* ABout *****/
+ /* Experience */
+ .exp__main
+ {
+  border-top: 0.1rem solid;
+  height: max-content;
+  font-family: cursive;
+  color: white;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.exp{
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:1.5rem;
+  
+}
+.exp__text
+{
+  display: grid;
+  grid-template-rows:1fr;
+  gap:1.5rem;
+}
+.kk{
+  color: white;
+  height: max-content;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.2rem solid;
+  border-radius: 3rem;
+
+}
+.kk ul li{
+  list-style: none;
+}
+.progress
+{
+ width: 75%;
+ margin-left: 10rem;
+}
+.progress-bar
+{
+  background: linear-gradient(45deg,
+    transparent,
+    rgb(249, 253, 2),
+    transparent);
+    color: black;
+    font-weight: bold;
+}
+.jj
+{
+  height: max-content;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.2rem solid;
+  border-radius: 3rem;
+}
+.jj ul li{
+  list-style: none;
+}
+.mm{
+  height: max-content;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.2rem solid;
+  border-radius: 3rem;
+}
+.mm ul{
+  columns: 2;
+  
+}
+.exp__card__column
+{
+  height: max-content;
+  margin-top: 10rem;
+}
+.exp__img{
+  background:url(i.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: all 400ms ease;
+  border: 0.2rem solid;
+}
+.exp__img p{
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+.Social__icons
+{
+  margin-top: 5rem;
+  font-size: 2.6rem;
+}
+.Social__icons ul li
+{
+  display: inline;
+  margin-left: 3.5rem;
+}
+/*********** contact ***********/
+.contact__cards
+{
+  
+  display: grid;
+  grid-template-columns: 40% 55%;
+  gap: 1.5rem;
+  font-family: cursive;
+}
+.divs
+{
+  background-color: rgb(3, 3, 0);
+  height: max-content;
+  border-radius: 3rem;
+}
+.About__containe
+{
+  border-top: 0.1rem solid white;
+  color: white;
+  
+}
+.contact__f
+{
+  padding: 2.2rem;
+  background: linear-gradient(45deg,
+  transparent,
+  rgba(82, 82, 99, 0.945),
+  transparent);
+}
+.contact__f label{
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  color: rgb(236, 236, 132);
+  font-family: cursive;
+}
+.contact__f input
+{
+  width: 80%;
+}
+.contact__f button
+{
+  background-color: yellow;
+  width: 40%;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.contact__f button:hover
+{
+  border-color: yellow;
+}
+.contact__f textarea
+{
+  height: 25vh;
+}
+/**** contact left ******/
+.padding
+{
+  padding: 2rem;
+}
+.padding-type
+{
+  padding: 1.3rem;
+  margin-top: -4rem;
+}
+.contact__img img
+{
+  float: left;
+  width: 5rem;
+  border-radius: 5rem;
+  margin-right: 0.5rem;
+}
+
+.contact__t_display
+{
+  padding: 1.5rem;
+  float: left;
+}
+.contact__t_display h3{
+  padding-bottom: 1rem;
+}
+.kkk{
+  margin-top: 0rem;
+  float: left;
+  font-size: 1.1rem;
+}
+
+@media(max-width: 1024px){
+  html{
+    font-size: 45%;
+  }
+  .header__container
+  {
+    height: 40vh;
+  }
+  .about__card-long  
+  {
+    height: max-content;
+  }
+  .about__content
+  {
+    height: max-content;
+  }
+  .kk{
+    margin-top: -8rem;
+  }
+}
+@media(max-width: 768px){
+  html{
+    font-size: 25%;
+  }
+  .header__container
+  {
+    height: 13vh;
+  }
+  .about__card-long  
+  {
+    height: 13vh;
+  }
+  .padding-type
+  {
+    margin-top: 0rem;
+  }
+  
+  .contact__f textarea
+  {
+    height: 5vh;
+  }
+  .kk
+  {
+    margin-top: -4rem;
+  }
+  .contact__f
+  {
+    height: max-content;
+  }
+}
