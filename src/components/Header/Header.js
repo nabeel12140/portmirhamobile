@@ -6,7 +6,7 @@ import Typed from "react-typed"
 const Header = () => {
   
   return (
-    <div className='Main__header'>
+    <div className='Main__header' id="id">
         <div className='header__container'>
           <h1>Nabeel's PortFolio</h1>
           <Typed className="header__type-tex" 

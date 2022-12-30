@@ -6,7 +6,7 @@ const Footer = () => {
     <>
 
 
-      <div class="footer container-fluid">
+      <div class="footer container-fluid" id='link'>
         <div class="footer container ">
           <div class="footer row">
             <div class="footer logodiv col-sm">

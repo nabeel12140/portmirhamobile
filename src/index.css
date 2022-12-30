@@ -15,11 +15,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index:9999;
+  z-index:1;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 6s;
+  transition: all 15s;
 }
 .spinner-border{
   height: 5rem;
@@ -30,7 +30,7 @@ code {
     monospace;
 }
 
-/**************** NAV__BAR CSS******************/
+/**************** Top NAV__BAR CSS******************/
 .navbar-brand
 {
   margin-left: 15rem;
@@ -51,15 +51,12 @@ code {
   margin-right: 2rem;
   font-family: Comic Sans MS, Comic Sans, cursive;
 }
-.navbar-nav li a:hover{
-  color: white;
-  cursor: pointer;
-}
 .navbar-nav{
   margin-right: 10rem;
 }
+/**bottom NAv **/
 .nav__a{
-  background: rgba(0,0,0,0.3);
+  
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;

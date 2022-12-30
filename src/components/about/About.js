@@ -1,95 +1,180 @@
-import React,{useEffect} from 'react'
+import React ,{useEffect}from 'react'
+import pic from '../../me3.jpg';
+import Typed from "react-typed"
 import AOS from 'aos'
 import "aos/dist/aos.css"
 const About = () => {
   useEffect(()=>{
-    AOS.init({duration:2000});
+    AOS.init({duration:3000});
   },[])
+  
   return (
-    <div className='exp__main padding'>
-      <h1 className='text-center padding'>Experience</h1>
-        <div className='exp'>
-          <div className='exp__text' >
-            
-              <div className='kk padding'data-aos="fade-left">
-                <h2 className='icon__color'>Skills</h2>
-                <ul data-aos="fade-left">
-                  <li>Web Development :
-                    <div class="progress">
-                        <div class="progress-bar-striped progress-bar-animated progress-bar w-75 bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">75%</div>
-                    </div></li>
-                  <li>Andriod Development :
-                  <div class="progress">
-                        <div class="progress-bar-striped progress-bar-animated progress-bar w-25 bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="50">25%</div>
-                    </div>
-                  </li>
-                  <li>Machine Learning :
-                  <div class="progress">
-                        <div class="progress-bar-striped progress-bar-animated progress-bar w-50 bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">55%</div>
-                    </div>
-                  </li>
-                  <li>Paython :<div class="progress">
-                        <div class="progress-bar-striped progress-bar-animated progress-bar w-75 bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">75%</div>
-                    </div></li>
-                  <li>Java :<div class="progress">
-                        <div class="progress-bar-striped progress-bar-animated progress-bar w-50 bg-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="200">50%</div>
-                    </div></li>
-                </ul>
-              </div>
-
-            
-              <div className='jj padding'data-aos="fade-left">
-                <h2 className="icon__color">Working Experience</h2>
-                <div className='exp__nust padding'data-aos="fade-left">
-                  <h5><i class="fa-solid fa-briefcase"></i> Internships</h5>
-                  <ul>
-                    <li><b className='icon__color'>Artificial Intelligence</b> Three month Internship from <small>Nust Nstp</small> </li>
-                    <li><b className='icon__color'>Call Center</b> 5+ Month as an Crs agent and as Team lead</li>
-                  </ul>
-                  <h5><i class="fa-solid fa-car"></i> Fiverr</h5>
-                  <ul>
-                    <li><b className='icon__color'>Project Made</b> 4 month Experience as a <small>Free-lancer</small> </li>
-                    <li><b className='icon__color'>Project Team</b> Good understanding with team mate</li>
-                    <li><b className='icon__color'>Customers</b> %/5 rating from my customers</li>
-                  </ul>
-                </div>
-
-              </div>
-              <div className='mm padding'data-aos="fade-left">
-              <h2 className="icon__color">Language</h2>
-              <ul>
-                <li>English</li>
-                <li>German</li>
-                <li>Urdu</li>
-                <li>Punjabi</li>
-              </ul>
-              <h2 className="icon__color">Sports</h2>
-              <ul>
-                <li>GYM Freak</li>
-                <li>Cricket</li>
-                <li>Footballs</li>
-                <li>Ches</li>
-                
-              </ul>
-              </div>
-          </div>
-          <div className='exp__card__column padding'data-aos="zoom-in">
-            <div className='exp__img'>
-              <p><h2 className='icon__color'>LETS EXPERIENCE<br/></h2><small>My Name is jesus And I work For God</small></p>
-            </div>
-            <div className='Social__icons padding icon__color' >
-              <ul data-aos="fade-left">
-                <li><i class="fa-brands fa-github"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-brands fa-facebook"></i></li>
-                <li><i class="fa-brands fa-free-code-camp"></i></li>
-              </ul>
-            </div>
-            
+    
+    <div className='containe About__containe ' id="about">
+      <div className='background-imag'>
+      <h1 className='text-center'> About Me</h1>
+      <div className=' about__container'data-aos="zoom-in">
+        <div className="about__me">
+          <div className="about__img">  
+            <img src={pic} alt='About img'/>
           </div>
         </div>
         
+        <div className="about__content ">
+          <div className="about__cards">
+            <article className='about__card'>
+
+              <h5 className='icon__color' >Certificate</h5>
+              <small>4+ Docs</small>
+            </article>
+            <article className='about__card'>
+             
+              <h5 className='icon__color'>Microsoft</h5>
+              <small>@ Month</small>
+            </article>
+            <article className='about__card'>
+          
+              <h5 className='icon__color'>Experience</h5>
+              <small>3+ year working Experibece</small>
+            </article>
+            
+            </div>
+            <div className='about__card-long'>
+            <div className='about__card-4grid'>
+              <div className='about__card-4grid-w'>
+              <i class=" fa-solid fa-computer"></i>
+              <h6 className="icon__color">
+                   Business Stratyegy
+              </h6>
+              </div>
+              <div className='about__card-4grid-t'data-aos="fade-left">
+               
+                <small >
+                  sdkfjlsdnfsjngjdbn kjasd vfjksbd kjdbfjkbasdf jkabsfjkb
+                </small>
+              </div>
+              </div>
+              <div className='about__card-4grid'>
+              <div className='about__card-4grid-w'>
+              <i class="fa-solid fa-business-time"></i>
+              <h6 className='icon__color'>
+                   Business Marketing
+                </h6>
+              </div>
+              <div className='about__card-4grid-t'data-aos="fade-left">
+                
+                <small>
+                  sdkfjlsdnfsjngjdbn kjasd vfjksbd kjdbfjkbasdf jkabsfjkb
+                </small>
+              </div>
+              </div>
+              <div className='about__card-4grid'>
+              <div className='about__card-4grid-w'>
+              <i class="fa-brands fa-teamspeak"></i>
+              <h6 className='icon__color'>
+                   Team Mangement
+                </h6>
+              </div>
+              <div className='about__card-4grid-t'data-aos="fade-left">
+                <small>
+                  sdkfjlsdnfsjngjdbn kjasd vfjksbd kjdbfjkbasdf jkabsfjkb
+                </small>
+              </div>
+              </div>
+              <div className='about__card-4grid'>
+              <div className='about__card-4grid-w'>
+              <i class="fa-regular fa-folder"></i>
+              <h6 className='icon__color'>
+                   Project Profit
+                </h6>
+              </div>
+              <div className='about__card-4grid-t'data-aos="fade-left">
+              
+                <small>
+                  sdkfjlsdnfsjngjdbn kjasd vfjksbd kjdbfjkbasdf jkabsfjkb
+                </small>
+              </div>
+              </div>
+              </div>
+              
+        </div>
     </div>
+  <div className='bg__card_icon padding ' data-aos="fade-left">
+    
+      <p data-aos="fade-left">I am a software engineer student of 8th semester from National
+      University Of Modern Language (NUML) with 3.0 Cgpa. Currently
+      looking for a job or a internship.<br/>I would like to explore the bit of Knowledge I posses and try to
+      learn as much as possible by putting efforts and being committed
+      to my work
+      </p>
+    
+    <div className='card__icon'data-aos="fade-left">
+                <div className='small_img'>
+                  <div className='about__text-customer'>
+                   <h3 className='icon__color'>143</h3>Compiled Project
+                  </div>
+                  <div className='about__text-customer'>
+                  <h3 className='icon__color'>114</h3> Happy Customer
+                  </div>
+                  <div className='about__text-customer'>
+                  <h3 className='icon__color'>5+</h3>Honors & Rewards
+                  </div>
+                  <div className='about__text-customer'>
+                  <h3 className='icon__color'>20+</h3>Assist Projects
+                  </div>
+                  <div className='about__text-customer'>
+                  <h3 className='icon__color'>3</h3>Team Members
+                  </div>
+                </div>
+                <div className='c small_img'>
+                    <div className='about__text-customer'>
+                     <h3 className='icon__color'>BS Software Engineering</h3>
+                    National University Of Modern
+                    </div>
+                    <div className='about__text-customer'>
+                    <h3 className='icon__color'>Certificate's</h3>
+                    <ul>
+                    <li>Microsoft Word,<small> Excel, Power Point</small></li>
+                    <li>C++ <small>3 Month Course</small></li>
+                    <li>Java <small>3 Month Course</small></li>
+                      
+                      
+                    </ul>
+                  
+                    </div>
+                    <div className='about__text-customer'>
+                     <h3 className='icon__color'>Courses<small> "online" </small></h3>
+                    <ul>
+                      <li>Machine Learning,<small>Udemy</small> </li>
+                      <li>Html,Css,Bootstrap,<small>Udemy</small></li>
+                    </ul>
+                    
+                    </div>
+                </div>
+                <div className='a small_img'>
+                  <div className='about__text-customer'>
+                      <h3 className='icon__color'>Projects</h3>
+                      <ul>
+                        <li><b className='icon__color'>Intelligent IDE:</b><small> Final Year Project<br/>Error solution Website For Biggners <b >Languages:</b>Python,React,Nodes,MongoDb</small></li>
+                        <li><b className='icon__color'>Neutral:</b><small> E-Commerece website React,Nodes,MongoDb</small></li>
+                        <li><b className='icon__color'>Fortune.com: </b>(replica) <small>Html,css,Bootstrap</small></li>
+                      </ul>
+                  </div>
+                  <div className='about__text-customer'>
+                      <h3 className='icon__color'>Awards</h3>
+                      <ul>
+                        <li><b className='icon__color'>Final year project:</b><small> 3rd position team-lead</small></li>
+                        <li><b className='icon__color'>Programing Competition Senior Category:</b><small> Runner Up</small></li>
+                      </ul>
+                  </div>
+                </div>
+      </div>
+    </div>
+    <div className='pp'></div>
+  </div>
+  
+ </div>
+ 
   )
 }
 

@@ -10,10 +10,10 @@ const Nav = () => {
   return (
     <nav className='nav__a icon__color'>
        <a href='#' className={activenav==='#' ? 'active': ''} ><AiOutlineHome/></a>
-      <a href='#about' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><AiOutlineUser/></a>
-      <a href='#contact' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><BsBook/></a>
-      <a href='#experience' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><AiOutlineCustomerService/></a>
-      <a href='#services' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><BiMessageError/></a>
+      <a href='#about' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><BsBook/></a>
+      <a href='#experience' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><AiOutlineUser/></a>
+      <a href='#contact' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><AiOutlineCustomerService/></a>
+      <a href='#link' onClick={()=>setnav("#")} className={activenav==='#' ? 'active': ''}><BiMessageError/></a>
     </nav>
   )
 }

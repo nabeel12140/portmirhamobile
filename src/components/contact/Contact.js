@@ -1,6 +1,5 @@
 import React from 'react'
-import { useState,useEffect } from 'react';
-import AOS from 'aos';
+import { useState} from 'react';
 import "aos/dist/aos.css"
 import pic from '../../me3.jpg';
 import Axios from 'axios';
@@ -18,9 +17,9 @@ const Contact = () => {
     alert("Email Has been sent")
   }
   return (
-    <div className='containe About__containe'>
+    <div className='containe About__containe' id="contact">
       <div className='background-imag'>
-        <h1 className='text-center padding'> Contact Me</h1>
+        <h1 className='text-center padding'>Contact Me</h1>
         <div className='contact__cards'data-aos="zoom-in">
             <div className='divs'>
                 <div className='contact__t padding'>
