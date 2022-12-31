@@ -7,12 +7,10 @@ import About from './components/About/About';
 import Experience from './components/Experiences/Experience';
 import Contact from './components/contact/Contact';
 import Footer from './footer/Footer';
-import Script from './components/NavBar/Script';
 function App() {
   
   return (
     <>
-    <Script/>
     <Top_nav/>
     <Nav/>
     <Header/>

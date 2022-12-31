@@ -118,7 +118,7 @@ code {
 .header__container
 {
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(back_g.jpg);
-  height: 90vh;
+  height: 35.5rem;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -176,8 +176,7 @@ code {
     rgba(212, 199, 243, 0.945),
     transparent);
     display: grid;
-    place-items: center;
-    margin-top: rem;   
+    place-items: center;   
 }
 
 .about__img img{
@@ -356,16 +355,12 @@ code {
   height: max-content;
   font-family: cursive;
   color: white;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dd.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
  }
 .exp{
-  height: max-content;
+  
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap:1.5rem;
-  
 }
 .exp__text
 {
@@ -381,7 +376,6 @@ code {
   background-size: cover;
   border: 0.2rem solid;
   border-radius: 3rem;
-
 }
 .kk ul li{
   list-style: none;
@@ -389,7 +383,7 @@ code {
 .progress
 {
  width: 75%;
- margin-left: 10rem;
+ margin-left: 8rem;
 }
 .progress-bar
 {
@@ -569,18 +563,45 @@ code {
   {
     height: 13vh;
   }
-  .about__card-long  
+  .bg__card_icon
   {
-    height: 13vh;
+    height: 10vh;
   }
-  .padding-type
+  .about__card-long
   {
-    margin-top: 0rem;
+    height: max-content;
   }
-  
+  .small_img{
+    padding: 2rem;
+  }
+  .pp{
+    margin-top: 15rem;
+  }
+  .about__text-customer
+  {
+    padding-left: 2rem;
+  }
+  .exp{
+    margin-top: 6rem;
+  }
+  .exp__img
+  {
+    height: 18vh;
+  }
+  .exp__card__column
+  {
+    margin-top: 5rem;
+  }
+  .progress
+  {
+    margin-left: 9rem;
+  }
+  .jj{
+    height:max-content;
+  }
   .contact__f textarea
   {
-    height: 5vh;
+    height: 3vh;
   }
   .kk
   {
@@ -591,3 +612,5 @@ code {
     height: max-content;
   }
 }
+
+/***** MOBILE VIEW ****/

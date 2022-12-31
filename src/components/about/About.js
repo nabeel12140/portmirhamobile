@@ -111,25 +111,21 @@ const About = () => {
     <div className='card__icon'data-aos="fade-left">
                 <div className='small_img'>
                   <div className='about__text-customer'>
+                  <ul>
                    <h3 className='icon__color'>143</h3>Compiled Project
-                  </div>
-                  <div className='about__text-customer'>
                   <h3 className='icon__color'>114</h3> Happy Customer
-                  </div>
-                  <div className='about__text-customer'>
                   <h3 className='icon__color'>5+</h3>Honors & Rewards
-                  </div>
-                  <div className='about__text-customer'>
                   <h3 className='icon__color'>20+</h3>Assist Projects
-                  </div>
-                  <div className='about__text-customer'>
                   <h3 className='icon__color'>3</h3>Team Members
-                  </div>
+                  </ul>
+              </div>
                 </div>
-                <div className='c small_img'>
+                <div className=' small_img'>
                     <div className='about__text-customer'>
                      <h3 className='icon__color'>BS Software Engineering</h3>
-                    National University Of Modern
+                    <ul>
+                      <li>National University Of Modern</li>
+                    </ul>
                     </div>
                     <div className='about__text-customer'>
                     <h3 className='icon__color'>Certificate's</h3>
@@ -140,9 +136,7 @@ const About = () => {
                       
                       
                     </ul>
-                  
-                    </div>
-                    <div className='about__text-customer'>
+
                      <h3 className='icon__color'>Courses<small> "online" </small></h3>
                     <ul>
                       <li>Machine Learning,<small>Udemy</small> </li>
@@ -151,7 +145,7 @@ const About = () => {
                     
                     </div>
                 </div>
-                <div className='a small_img'>
+                <div className=' small_img'>
                   <div className='about__text-customer'>
                       <h3 className='icon__color'>Projects</h3>
                       <ul>
@@ -159,8 +153,6 @@ const About = () => {
                         <li><b className='icon__color'>Neutral:</b><small> E-Commerece website React,Nodes,MongoDb</small></li>
                         <li><b className='icon__color'>Fortune.com: </b>(replica) <small>Html,css,Bootstrap</small></li>
                       </ul>
-                  </div>
-                  <div className='about__text-customer'>
                       <h3 className='icon__color'>Awards</h3>
                       <ul>
                         <li><b className='icon__color'>Final year project:</b><small> 3rd position team-lead</small></li>

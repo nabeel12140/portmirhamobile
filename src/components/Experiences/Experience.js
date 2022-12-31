@@ -6,11 +6,11 @@ const Experience = () => {
     AOS.init({duration:2000});
   },[])
   return (
-    <div className='exp__main padding' id="experience">
-      <h1 className='text-center padding'>Experience</h1>
+    <div className='exp__main' id="experience">
+      <div className='background-imag'>
+      <h1 className='text-center '>Experience</h1>
         <div className='exp'>
           <div className='exp__text' >
-            
               <div className='kk padding'data-aos="fade-left">
                 <h2 className='icon__color'>Skills</h2>
                 <ul data-aos="fade-left">
@@ -88,7 +88,7 @@ const Experience = () => {
             
           </div>
         </div>
-        
+        </div>
     </div>
   )
 }
