@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portmirhamobile/static/css/main.53304958.css",
+    "main.js": "/portmirhamobile/static/js/main.086f64e4.js",
+    "static/js/787.ec704a7a.chunk.js": "/portmirhamobile/static/js/787.ec704a7a.chunk.js",
+    "static/media/cv.pdf": "/portmirhamobile/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/dd.webp": "/portmirhamobile/static/media/dd.a15293015127c7c281f1.webp",
+    "static/media/me3.jpg": "/portmirhamobile/static/media/me3.3602d3226837999f9da7.jpg",
+    "static/media/back_g.jpg": "/portmirhamobile/static/media/back_g.8c3fbe3c0c871e1996d0.jpg",
+    "index.html": "/portmirhamobile/index.html",
+    "main.53304958.css.map": "/portmirhamobile/static/css/main.53304958.css.map",
+    "main.086f64e4.js.map": "/portmirhamobile/static/js/main.086f64e4.js.map",
+    "787.ec704a7a.chunk.js.map": "/portmirhamobile/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53304958.css",
+    "static/js/main.086f64e4.js"
+  ]
+}
